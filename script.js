@@ -47,3 +47,7 @@ function addWordDOM() {
 }
 
 addWordDOM()
+
+text.addEventListener("input", function (e) {
+  const insertedText = e.target.value
+})
