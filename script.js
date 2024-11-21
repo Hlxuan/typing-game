@@ -53,7 +53,13 @@ text.addEventListener("input", function (e) {
 
   if (insertedText === randomWord) {
     addWordDOM()
+    updateScore()
 
     e.target.value = ""
   }
 })
+
+function updateScore() {
+  score++
+  scoreEl.innerHTML = score
+}
