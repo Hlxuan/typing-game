@@ -37,6 +37,8 @@ let score = 0
 
 let time = 10
 
+text.focus()
+
 function getRandomWord() {
   return words[Math.floor(Math.random() * words.length)]
 }
