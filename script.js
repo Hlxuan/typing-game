@@ -7,3 +7,26 @@ const settingsBtn = document.getElementById("settings-btn")
 const settings = document.getElementById("settings")
 const settingsForm = document.getElementById("settings-form")
 const difficultySelect = document.getElementById("difficulty")
+
+const words = [
+  "const",
+  "let",
+  "input",
+  "image",
+  "form",
+  "style",
+  "display",
+  "container",
+  "element",
+  "class",
+  "document",
+  "background",
+  "transition",
+  "transform",
+  "translate",
+  "border",
+  "radius",
+  "margin",
+  "padding",
+  "select",
+]
