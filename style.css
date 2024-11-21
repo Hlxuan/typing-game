@@ -26,6 +26,11 @@ select {
   background-color: #a7c5e3;
 }
 
+select:focus,
+button:focus {
+  outline: 0;
+}
+
 .settings-btn {
   position: absolute;
   bottom: 30px;
