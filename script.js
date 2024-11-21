@@ -2,7 +2,7 @@ const word = document.getElementById("word")
 const text = document.getElementById("text")
 const scoreEl = document.getElementById("score")
 const timeEl = document.getElementById("time")
-const endgameEl = document.getElementById("end-game")
+const endgameEl = document.getElementById("end-game-container")
 const settingsBtn = document.getElementById("settings-btn")
 const settings = document.getElementById("settings")
 const settingsForm = document.getElementById("settings-form")
@@ -49,6 +49,15 @@ function updateTime() {
     clearInterval(timeInterval)
     gameOver()
   }
+}
+
+function gameOver() {
+  endgameEl.innerHTML = `
+    <h1>时间结束了</h1>
+    <p>你的最终分数是${score}</p>
+    <button onclick="location.reload()">再来一次</button>
+  `
+  endgameEl.style.display = "flex"
 }
 
 function getRandomWord() {
