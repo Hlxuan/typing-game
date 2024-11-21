@@ -40,3 +40,10 @@ let time = 10
 function getRandomWord() {
   return words[Math.floor(Math.random() * words.length)]
 }
+
+function addWordDOM() {
+  randomWord = getRandomWord()
+  word.innerHTML = randomWord
+}
+
+addWordDOM()
