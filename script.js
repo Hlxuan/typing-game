@@ -39,6 +39,18 @@ let time = 10
 
 text.focus()
 
+const timeInterval = setInterval(updateTime, 1000)
+
+function updateTime() {
+  time--
+  timeEl.innerHTML = time + "s"
+
+  if (time === 0) {
+    clearInterval(timeInterval)
+    gameOver()
+  }
+}
+
 function getRandomWord() {
   return words[Math.floor(Math.random() * words.length)]
 }
