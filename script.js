@@ -79,6 +79,10 @@ text.addEventListener("input", function (e) {
     updateScore()
 
     e.target.value = ""
+
+    time += 5
+
+    updateTime()
   }
 })
 
