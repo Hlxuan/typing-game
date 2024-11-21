@@ -30,3 +30,5 @@ const words = [
   "padding",
   "select",
 ]
+
+let randomWord
