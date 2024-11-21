@@ -42,6 +42,8 @@ let difficulty =
     ? localStorage.getItem("difficulty")
     : "medium"
 
+difficultySelect.value = difficulty
+
 text.focus()
 
 const timeInterval = setInterval(updateTime, 1000)
