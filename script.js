@@ -99,4 +99,5 @@ settingsBtn.addEventListener("click", function () {
 
 settingsForm.addEventListener("change", function (e) {
   difficulty = e.target.value
+  localStorage.setItem("difficulty", difficulty)
 })
