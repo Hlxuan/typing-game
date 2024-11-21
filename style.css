@@ -19,6 +19,13 @@ button {
   padding: 5px 15px;
 }
 
+select {
+  width: 200px;
+  padding: 5px;
+  border-radius: 0;
+  background-color: #a7c5e3;
+}
+
 .settings-btn {
   position: absolute;
   bottom: 30px;
