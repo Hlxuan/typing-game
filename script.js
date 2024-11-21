@@ -32,3 +32,7 @@ const words = [
 ]
 
 let randomWord
+
+let score = 0
+
+let time = 10
