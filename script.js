@@ -37,6 +37,8 @@ let score = 0
 
 let time = 10
 
+let difficulty = "medium"
+
 text.focus()
 
 const timeInterval = setInterval(updateTime, 1000)
