@@ -50,4 +50,10 @@ addWordDOM()
 
 text.addEventListener("input", function (e) {
   const insertedText = e.target.value
+
+  if (insertedText === randomWord) {
+    addWordDOM()
+
+    e.target.value = ""
+  }
 })
