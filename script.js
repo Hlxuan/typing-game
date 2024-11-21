@@ -90,3 +90,7 @@ function updateScore() {
   score++
   scoreEl.innerHTML = score
 }
+
+settingsBtn.addEventListener("click", function () {
+  settings.classList.toggle("hide")
+})
