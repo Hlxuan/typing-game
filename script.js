@@ -96,3 +96,7 @@ function updateScore() {
 settingsBtn.addEventListener("click", function () {
   settings.classList.toggle("hide")
 })
+
+settingsForm.addEventListener("change", function (e) {
+  difficulty = e.target.value
+})
